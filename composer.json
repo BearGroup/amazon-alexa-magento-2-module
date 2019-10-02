@@ -1,5 +1,5 @@
 {
-  "name": "amzn/amazon-alexa-magento-2-module",
+  "name": "beargroup/amazon-alexa-magento-2-module",
   "description": "Amazon Alexa integration",
   "type": "magento2-module",
   "version": "1.0.0",
