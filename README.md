@@ -2,12 +2,25 @@
 
 The Amazon_Alexa module provides Alexa Delivery Notifications for tracking numbers added to orders.
 
-## About Amazon Pay and Login
+## Installation
+### Install via composer (recommended):
+```
+$ composer require beargroup/amazon-alexa-magento-2-module
+$ php bin/magento module:enable Amazon_Alexa
+$ php bin/magento setup:upgrade
+$ php bin/magento setup:di:compile
+$ php bin/magento cache:clean
+```
+### Manual install:
+```
+$ mkdir -p app/code/Amazon/
+$ git clone https://github.com/BearGroup/amazon-alexa-magento-2-module.git app/code/Amazon/Alexa
+$ php bin/magento module:enable Amazon_Alexa
+$ php bin/magento setup:upgrade
+$ php bin/magento setup:di:compile
+$ php bin/magento cache:clean
+```
 
-Amazon Pay and Login provides integration of your Magento 2 store with Amazon Pay 
-and Login with Amazon services. This helps your customers shop quickly, safely and securely. 
-Your customers can pay on your website without re-entering their payment and address 
-details. All Amazon Pay transactions are protected by Amazon's A-to-z Guarantee.
 
 ## Dependencies
 
