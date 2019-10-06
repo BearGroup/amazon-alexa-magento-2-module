@@ -45,7 +45,7 @@ The status will show under:
 ## Installation
 ### Install via composer (recommended):
 ```
-$ composer require beargroup/amazon-alexa-magento-2-module
+$ composer require amzn/amazon-pay-magento-2-alexa-plugin
 $ php bin/magento module:enable Amazon_Alexa
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
@@ -54,7 +54,7 @@ $ php bin/magento cache:clean
 ### Manual install:
 ```
 $ mkdir -p app/code/Amazon/
-$ git clone https://github.com/BearGroup/amazon-alexa-magento-2-module.git app/code/Amazon/Alexa
+$ git clone https://github.com/amzn/amazon-pay-magento-2-alexa-plugin.git app/code/Amazon/Alexa
 $ php bin/magento module:enable Amazon_Alexa
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
