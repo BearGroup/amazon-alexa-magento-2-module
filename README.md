@@ -55,6 +55,7 @@ $ php bin/magento cache:clean
 ```
 $ mkdir -p app/code/Amazon/
 $ git clone https://github.com/amzn/amazon-pay-magento-2-alexa-plugin.git app/code/Amazon/Alexa
+$ composer require amzn/amazon-pay-sdk-v2-php
 $ php bin/magento module:enable Amazon_Alexa
 $ php bin/magento setup:upgrade
 $ php bin/magento setup:di:compile
